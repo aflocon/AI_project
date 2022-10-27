@@ -1,8 +1,11 @@
 # AI_project: Clustering and classification of environnemental datas from divers countries.
 
 The goal of this project is to use AI tools from python's sklearn and spicy packages to classify and cluster data.
+The report is a jupyter notebook that combine codes, graphes and explanation of each technical choices. 
+
 We chose environmental data from WorldBank database. We download them in "Environment_datas.txt".
-We have a matrix of data from 266 countries (object) regarding 142 parameters (attributes).
+We have a matrix of data from 266 countries (objects) regarding 142 parameters (attributes).
+Each parameter (attribute) is defined in the "Environment_defintions.txt" file. 
 Through those data we want to examine the correlation between the wealth of a country and its environmental scores. 
 
 For that we go through different steps: 
